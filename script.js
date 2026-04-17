@@ -26,3 +26,5 @@ function playGame(playerChoice) {
     result = "You lose!🙃";
     computerScore++;
   }
+
+   document.getElementById('result').innerText = result;
