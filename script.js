@@ -10,3 +10,8 @@ function playGame(playerChoice) {
   if (playerChoice === computerChoice) {
     result = "It's a tie!😊";
   } else if (
+
+     document.getElementById('result').innerText = result;
+  document.getElementById('playerScore').innerText = playerScore;
+  document.getElementById('computerScore').innerText = computerScore;
+}
