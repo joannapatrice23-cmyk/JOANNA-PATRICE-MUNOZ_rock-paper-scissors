@@ -32,3 +32,7 @@ function playGame(playerChoice) {
    document.getElementById('score').innerText =
     `Player: ${playerScore} | Computer: ${computerScore}`;
 }
+
+function resetGame() {
+      playerScore = 0;
+      computerScore = 0;
