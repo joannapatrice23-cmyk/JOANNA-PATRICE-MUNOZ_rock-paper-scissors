@@ -6,3 +6,7 @@ function playGame(playerChoice) {
   const computerChoice = choices[Math.floor(Math.random() * 3)];
 
   let result = '';
+
+  if (playerChoice === computerChoice) {
+    result = "It's a tie!😊";
+  } else if (
