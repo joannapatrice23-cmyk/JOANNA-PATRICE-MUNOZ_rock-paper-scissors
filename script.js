@@ -15,3 +15,14 @@ function playGame(playerChoice) {
   document.getElementById('playerScore').innerText = playerScore;
   document.getElementById('computerScore').innerText = computerScore;
 }
+
+(playerChoice === 'rock' && computerChoice === 'scissors') ||
+    (playerChoice === 'paper' && computerChoice === 'rock') ||
+    (playerChoice === 'scissors' && computerChoice === 'paper')
+  ) {
+    result = "You win!🏆";
+    playerScore++;
+  } else {
+    result = "You lose!🙃";
+    computerScore++;
+  }
