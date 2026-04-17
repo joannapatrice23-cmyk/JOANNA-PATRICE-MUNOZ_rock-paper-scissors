@@ -28,3 +28,7 @@ function playGame(playerChoice) {
   }
 
    document.getElementById('result').innerText = result;
+
+   document.getElementById('score').innerText =
+    `Player: ${playerScore} | Computer: ${computerScore}`;
+}
