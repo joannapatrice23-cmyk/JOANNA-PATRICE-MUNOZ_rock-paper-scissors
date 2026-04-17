@@ -10,7 +10,7 @@ function playGame(playerChoice) {
   if (playerChoice === computerChoice) {
     result = "It's a tie!😊";
   } else if (
-    
+
 (playerChoice === 'rock' && computerChoice === 'scissors') ||
     (playerChoice === 'paper' && computerChoice === 'rock') ||
     (playerChoice === 'scissors' && computerChoice === 'paper')
@@ -31,3 +31,7 @@ function playGame(playerChoice) {
 function resetGame() {
       playerScore = 0;
       computerScore = 0;
+
+      document.getElementById('result').innerText = "Choose your move!";
+      document.getElementById('score').innerText = "You: 0 | Computer: 0";
+    }
