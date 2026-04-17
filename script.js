@@ -11,7 +11,7 @@ function playGame(playerChoice) {
     result = "It's a tie!😊";
   } else if (
 
-     document.getElementById('result').innerText = result;
+     
   document.getElementById('playerScore').innerText = playerScore;
   document.getElementById('computerScore').innerText = computerScore;
 }
