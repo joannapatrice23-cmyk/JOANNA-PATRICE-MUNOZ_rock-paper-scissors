@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 let playerScore = 0;
 let computerScore = 0;
 
@@ -36,7 +36,7 @@ function resetGame() {
       document.getElementById('result').innerText = "Choose your move!";
       document.getElementById('score').innerText = "You: 0 | Computer: 0";
     }
-=======
+
 let playerScore = 0;
 let computerScore = 0;
 
@@ -112,4 +112,4 @@ function resetGame() {
   document.getElementById('playerBox').classList.remove('winner', 'loser');
   document.getElementById('computerBox').classList.remove('winner', 'loser');
 }
->>>>>>> 77ba9d8cf10e3ffa060863f6ed2b16963cbc4e70
+
